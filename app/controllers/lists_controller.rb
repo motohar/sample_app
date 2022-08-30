@@ -32,7 +32,7 @@ class ListsController < ApplicationController
 
   def destroy
     list = List.find(params[:id])
-    list.destroy
+    list.destroyss
     redirect_to '/lists'
   end
 
